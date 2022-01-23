@@ -1,0 +1,1 @@
+# freecodecamp-intermediate-algorithm-scripting-my-solutions
