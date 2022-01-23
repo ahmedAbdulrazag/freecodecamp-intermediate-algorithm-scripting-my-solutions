@@ -16,6 +16,6 @@ const sumAll = arr => {
     return sum
 }
 
-const sumInRange = sumAll()
+const sumInRange = sumAll(numbers)
 
 console.log({sumInRange})
