@@ -17,11 +17,11 @@ function destroyer(arr) {
   // Run a background check on our citizens,
   // and if they're not found on your criminal records
   // allow them to pass and be part of our society of innocents
-  for(let i = 0, len = arr.length; i < len; i++) {
+  for(const citizen of arr) {
     // Background check
-    if(!records.hasOwnProperty(arr[i])) {
+    if(!records.hasOwnProperty(citizen)) {
       // Innocents 
-      innocents.push(arr[i])
+      innocents.push(citizen)
     }
   }
 
